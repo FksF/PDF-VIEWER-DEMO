@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { pdfDefaultOptions } from 'ngx-extended-pdf-viewer';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pdfeditor';
+
+
+
+  public page = 2;
+  public pageLabel = ''; 
 }
+
